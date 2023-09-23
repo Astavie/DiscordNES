@@ -1,0 +1,5 @@
+/target
+/rom
+.env
+.direnv
+.envrc

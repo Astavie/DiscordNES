@@ -1,0 +1,18 @@
+[package]
+name = "discord_plays_nes"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Astavie <astavie@pm.me>" ]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.27.0", features = ["full"] }
+dotenv = "0.15.0"
+discord = { path = "CardMaster/discord" }
+fastnes = { path = "fastnes" }
+image = "0.24.7"
+futures-util = "0.3.28"
+
+[patch.crates-io]
+serde = { git = "https://github.com/Astavie/serde.git", branch = "integer-tags-for-enums" }

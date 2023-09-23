@@ -1,0 +1,6 @@
+[submodule "fastnes"]
+	path = fastnes
+	url = https://github.com/Astavie/fastnes
+[submodule "CardMaster"]
+	path = CardMaster
+	url = https://github.com/Astavie/CardMaster
