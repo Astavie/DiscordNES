@@ -9,7 +9,6 @@ use discord::resource::Snowflake;
 use dotenv::dotenv;
 use fastnes::ppu::DrawOptions;
 use fastnes::{input::Controllers, nes::NES, ppu::FastPPU};
-use futures_util::stream::StreamExt;
 use image::codecs::gif::GifEncoder;
 use image::{ColorType, ImageOutputFormat};
 use std::env;
